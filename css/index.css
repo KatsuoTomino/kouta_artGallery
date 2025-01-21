@@ -24,7 +24,7 @@
 
 .first-view-text h1 {
   font-family: 'Montserrat','sans-serif';
-  font-size: 56px;
+  font-size: 60px;
   line-height: 72px;
 }
 
@@ -36,6 +36,7 @@
 .lead {
   max-width: 1200px;
   margin: 60px auto;
+  padding-left: 20px;
 }
 
 .lead p {
