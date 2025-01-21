@@ -45,6 +45,19 @@
   text-align: center;
 }
 
+.lead2 ::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 6px;
+  background-color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .link-button-area {
 text-align: center;
 margin-top: 40px;
