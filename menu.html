@@ -7,7 +7,6 @@
   <title>MENU|kouta official website</title>
   <meta name="description" content="カフェ「KISSA」のメニューを掲載しています。こだわりの朝煎りコーヒーをはじめ、さまざまなメニューをご用意しています。">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-  <script src="./js/toggle-menu.js"></script>
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/menu.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +19,7 @@
   <header class="header">
     <div class="header-inner">
       <a class="header-logo" href="./index.html">
-        <img src="./images/common/logo-header.png" alt="KISSA">
+        <img class="header-img" src="./images/common/logo-header.png" alt="KISSA">
       </a>
       <button class="toggle-menu-button"></button>
       <div class="header-site-menu">
@@ -42,7 +41,7 @@
     </div>
     <ul class="item-list">
       <li>
-        <img src="./images/menu/img-item01.jpg" alt="アメリカ―ノの商品画像">
+        <img class="img-list" src="./images/menu/img-item01.jpg" alt="アメリカ―ノの商品画像">
         <dl>
           <dt>アメリカ―ノ</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi praesentium quos
@@ -53,7 +52,7 @@
         <p class="item-label">AMERICANO</p>
       </li>
       <li>
-        <img src="./images/menu/img-item02.jpg" alt="カフェラテの商品画像">
+        <img class="img-list" src="./images/menu/img-item02.jpg" alt="カフェラテの商品画像">
         <dl>
           <dt>カフェラテ</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi praesentium quos
@@ -64,7 +63,7 @@
         <p class="item-label">CAFE LATE</p>
       </li>
       <li>
-        <img src="./images/menu/img-item03.jpg" alt="レモネードの商品画像">
+        <img class="img-list" src="./images/menu/img-item03.jpg" alt="レモネードの商品画像">
         <dl>
           <dt>レモネード</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi praesentium quos
@@ -75,7 +74,7 @@
         <p class="item-label">LEMONADE</p>
       </li>
       <li>
-        <img src="./images/menu/img-item04.jpg" alt="ホットドッグチリの商品画像">
+        <img class="img-list" src="./images/menu/img-item04.jpg" alt="ホットドッグチリの商品画像">
         <dl>
           <dt>ホットドックチリ</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi praesentium quos
@@ -86,7 +85,7 @@
         <p class="item-label">HOTDOG CHILI</p>
       </li>
       <li>
-        <img src="./images/menu/img-item05.jpg" alt="レーズンバターサンドの商品画像">
+        <img class="img-list" src="./images/menu/img-item05.jpg" alt="レーズンバターサンドの商品画像">
         <dl>
           <dt>レーズンバターサンド</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi praesentium quos
@@ -97,7 +96,7 @@
         <p class="item-label">RAISIN BUTTER SAND</p>
       </li>
       <li>
-        <img src="./images/menu/img-item06.jpg" alt="チーズケーキの商品画像">
+        <img class="img-list" src="./images/menu/img-item06.jpg" alt="チーズケーキの商品画像">
         <dl>
           <dt>チーズケーキ</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi praesentium quos
@@ -127,6 +126,8 @@
     <p class="copyright"><small>&copy;Tomikawacop</small></p>
   </footer>
 
+  <script src="./js/menu.js"></script>
+  <script src="./js/toggle-menu.js"></script>
 </body>
 
 </html>
