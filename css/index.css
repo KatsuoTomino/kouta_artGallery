@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .first-view {
-  height: calc(100vh - 110px);
+  min-height: 120vh;
   background-image: url(../images/kouta/kouta01.jpg);
   background-repeat: no-repeat;
   background-position: center center;
