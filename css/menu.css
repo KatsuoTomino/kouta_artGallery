@@ -2,11 +2,11 @@
 
 .title {
   height: 310px;
-  background-image: url(../images/menu/bg-main.jpg);
+  /* background-image: url(../images/kouta/art08.jpg);
   background-repeat: repeat;
-  animation: fall 20s infinite linear; 
+  animation:  fall 20s infinite linear; 
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
   display: flex;
   flex-direction: column;
   justify-content: center;

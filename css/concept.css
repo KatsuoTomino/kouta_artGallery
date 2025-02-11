@@ -2,16 +2,22 @@
 
 .title {
   height: 310px;
-  background-image: url(../images/concept/bg-main.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../images/kouta/main01.jpg);
+  background-repeat: repeat;
+  animation:  fall 20s infinite linear; 
   background-position: center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  text-shadow: 1px 1px 10px #4b2c14;
+  color: black;
+  text-shadow: 1px 1px 1px grey;
+} 
+
+@keyframes fall {
+  0%   { background-position: 0 0; }          /* 背景画像の位置を左上に設定 */
+  100% { background-position: -0px 1000px; } /* 背景画像の位置を左上から700px右下に設定 */
 }
 
 .title h1 {
