@@ -86,5 +86,29 @@
     margin-top: 45px;
     row-gap: 40px;
   }
+  
+    .feature-text{
+    margin-right: 150px;
+  }
+
+  .reverse .feature-text {
+    margin-left: 0;
+  }
+
+  .feature img {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+  }
+
+  .movie {
+    width: 500px;
+    padding: 30px 25px ;
+  }
+
+  .movie iframe {
+    height: 240px;
+  }
+  
 }
 
