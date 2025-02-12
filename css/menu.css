@@ -3,9 +3,7 @@
 .title {
   height: 310px;
   background-image: url(../images/kouta/art08.jpg);
-  background-repeat: repeat;
-  animation:  fall 20s infinite linear; 
-  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -85,29 +83,6 @@
   .item-list {
     margin-top: 45px;
     row-gap: 40px;
-  }
-  
-    .feature-text{
-    margin-right: 150px;
-  }
-
-  .reverse .feature-text {
-    margin-left: 0;
-  }
-
-  .feature img {
-    width: 100%;
-    height: auto;
-    margin-top: 25px;
-  }
-
-  .movie {
-    width: 500px;
-    padding: 30px 25px ;
-  }
-
-  .movie iframe {
-    height: 240px;
   }
   
 }
