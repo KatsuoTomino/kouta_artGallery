@@ -143,7 +143,7 @@ margin-top: 40px;
   
   .first-view {
     height: calc(100vh - 50px);
-    background-image: url(../images/kouta/kouta01.jpg);
+    background-image: url(../images/kouta/mainimg.jpg);
     align-items: flex-start;
   }
   .first-view-text {
