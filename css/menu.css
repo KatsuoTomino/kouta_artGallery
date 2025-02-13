@@ -3,7 +3,9 @@
 .title {
   height: 310px;
   background-image: url(../images/kouta/art08.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  animation:  fall 20s infinite linear; 
+  background-position: center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
