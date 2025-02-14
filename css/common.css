@@ -74,8 +74,8 @@ img {
 
 .footer-logo {
   display: block;
-  width:230px;
-  margin-top: 90px;
+  width:400px;
+  margin-top: 0px;
 }
 
 .footer-tel {
@@ -92,7 +92,7 @@ img {
 .copyright {
   font-size: 14px;
   font-weight: bold;
-  margin-top: 90px;
+  margin-top: 0px;
 }
 
 @media (max-width: 800px) {
